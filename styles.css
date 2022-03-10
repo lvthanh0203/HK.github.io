@@ -1,0 +1,302 @@
+
+    /*Slider */
+	
+    .slider {
+        background: url('https://dummyimage.com/1000x1000/F5F5F5/D3D3D3&text=nen+slider');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 790px;
+        position: relative;
+         background-position: center center;
+    }
+    .slider-content {
+        padding: 50px 0 54px 49px;
+        border-radius: 7px;
+    }
+    .slider-content h4 {
+        margin: 0;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .slider-content h1 {
+        font-size: 55px;
+        margin: 0;
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    .slider-content h2 {
+        margin: 0;
+        font-size: 45px;
+        color: #2F3032;
+    }
+    .slider-content span {
+        color: #253E74
+    }
+    .slider-content span i {
+        color: #fff
+    }
+    .slider-content p {
+        width: 72%;
+        line-height: 1.6;
+        font-size: 16px;
+        color: #545454;
+        margin: 13px 0 43px;
+    }
+    .slider-button a {
+         background-color: #253E74;
+        display: inline-block;
+        padding: 18px 23px;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 3px;
+        margin-right: 15px;
+        transition: .5s;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .slider-button a:hover {
+        background-image: linear-gradient( to right,  #028bfe, #b3e4ff);
+    }
+    
+    a.slider-active {
+        border: 1px solid #028bfe;
+       background: #fff;
+        color: #253E74;
+        transition: .5s;
+        position: relative;
+    }
+    a.slider-active:hover{
+        color: #fff;
+    }
+
+    /*Fearture */
+
+.feature {
+    background: #F8F8F8;
+    padding: 0 0 108px;
+}
+.row.margin-topper {
+    border: 11px solid#fff;
+    position: relative;
+    margin-top: -47px;
+    z-index: 1;
+}
+.single-feature-box {
+    background: #2D4B8B;
+    padding: 36px 30px 23px;
+}
+.single-feature-box.two {
+    background: #253E74;
+}
+.feature-icon {
+    margin-top: 31px;
+    margin-left: 9px;
+}
+.feature-icon i {
+    font-size: 60px;
+    display: inline-block;
+    color: #fff;
+}
+.feature-content {
+    margin-left: 31px;
+}
+.feature-title h2 {
+    font-size: 24px;
+    margin: 0 0 15px;
+    color: #fff;
+    font-weight: 600;
+}
+.feature-content-text p {
+    color: #fff;
+    line-height: 1.5;
+}
+
+   /*About */
+    .about {
+        background: url('https://dummyimage.com/1000x1000/F5F5F5/D3D3D3&text=nen+about');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    .about-thumb {
+        position: relative;
+        margin-left: -303px;
+    }
+    .about .dreamit-section-sub-title h5 {
+        color: #2C4C89;
+        text-transform: capitalize;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .dreamit-section-title{
+        position: relative;
+        z-index: 1;
+    }
+    .about .dreamit-section-main-title h2 {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    .dreamit-section-main-title h1 {
+        position: absolute;
+        content: "";
+        top: -42px;
+        left: -6px;
+        color: #F0F1F6;
+        font-size: 70px;
+        text-transform: uppercase;
+        z-index: -1;
+        opacity: 1;
+        font-weight: 800;
+    }
+    .about-bg-bar {
+        position: relative;
+    }
+    
+    .dreamit-section-content-text p {
+        line-height: 1.5;
+        width: 77%;
+        font-size: 16px;
+        color: #707070;
+        margin: 27px 0 0px;
+        font-weight: 500;
+        letter-spacing: 0.1px;
+    }
+    .about-single-box {
+        margin-bottom: 10px;
+    }
+    .about-icon {
+        margin-top: 8px;
+    }
+    .about-icon i {
+        font-size: 50px;
+        color: #2D4B8B;
+        display: inline-block;
+    }
+    .about-content {
+        margin-left: 19px;
+    }
+    .about-content h2 {
+        font-size: 18px;
+        color: #1B2741;
+        margin: 0 0 12px;
+    }
+    .about-content p {
+        width: 71%;
+    }
+    .row.topper2 {
+        border-top: 1px solid#E8E9ED;
+        margin: 20px 0 0;
+        padding: 26px 0 0;
+    }
+    
+    .signature-content h2 {
+        font-size: 18px;
+        margin: 0 0 6px 30px;
+        position: relative;
+    }
+    
+    .about-signature-thumb img {
+        width: 140px;
+        height: 60px;
+    }
+    /*Why choose us*/
+    
+    .why-choose-us {
+        background: url('nenwhy.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .pb-90 {
+        padding-bottom: 90px;
+    }
+    .pt-115 {
+        padding-top: 115px;
+    }
+    .why-choose-us .dreamit-section-main-title h1 {
+        top: -36px;
+        z-index: -1;
+        opacity: 0.1;
+    }
+    .why-choose-us .dreamit-section-sub-title h5 {
+        text-transform: capitalize;
+        font-size: 18px;
+    }
+    .why-choose-us .dreamit-section-main-title h2 {
+        font-size: 32px;
+        margin-left: 20px;
+    }
+    .why-choose-us .dreamit-section-content-text p {
+        line-height: 1.5;
+        width: 80%;
+        font-size: 16px;
+        color: #fff;
+        margin: 27px 0 36px;
+    }
+    .dreamit-section-main-title h2 span {
+        color: #00AFFF;
+    }
+    .choose-us-box {
+        margin-bottom: 7px;
+    }
+    .why-choose-us .choose-icon {
+        margin-top: -6px;
+        position: relative;
+    }
+    .choose-content {
+        margin-left: 11px;
+    }
+    .choose-title h2 {
+        font-size: 22px;
+        margin: 10px 0 8px;
+    }
+    .choose-icon i {
+        font-size: 28px;
+        display: inline-block;
+        color: #00AFFF;
+    }
+    .why-choose-us .single-choose-box {
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%);
+        background: #fff;
+        padding: 5px 20px 17px 10px;
+        margin-bottom: 30px;
+        border-bottom: 0;
+        border-radius: 0;
+        margin-right: 10px;
+        transition: .5s;
+    }
+    .why-choose-us .single-choose-box:hover{
+        box-shadow: 0 0 20px 0 rgb(0 0 0 /20%);
+        transform:translateY(-10px);
+    }
+    .choose-content p {
+        color: #fff;
+    }
+    .why-choose-us .choose-number {
+        position: absolute;
+        right: 21px;
+        top: 6px;
+    }
+    .why-choose-us .choose-number h1 {
+        float: right;
+    }
+    .why-choose-us .choose-number h1 {
+        font-size: 80px;
+        color: #F3F4F6;
+    }
+    .choose-us-icon i {
+        font-size: 60px;
+        display: inline-block;
+        margin: 22px 0 0px;
+        color: #1F3871;
+    }
+    .why-choose-us .choose-content-text p {
+        letter-spacing: 1px;
+        margin-top: 7px;
+        color: #888888;
+    }
+
